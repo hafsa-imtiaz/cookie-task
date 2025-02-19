@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - To-Do List</title>
+    <link rel="stylesheet" href="./css/signup_style.css">
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Create Your New Account</h2>
+        <input type="text" id="firstname" placeholder="First Name" required>
+        <input type="text" id="lastname" placeholder="Last Name" required>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+
+        <button onclick="SignUp()">Sign Up</button>
+        <p>Already have an account? <a href="#" onclick="showLogIn()">Log In</a></p>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
